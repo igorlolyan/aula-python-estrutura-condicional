@@ -1,6 +1,6 @@
 conta_normal = True
-conta_universitaria = True
-conta_especial = True
+conta_universitaria = False
+conta_especial = False
 
 saldo = 2000
 saque = 2450
@@ -27,3 +27,4 @@ elif conta_especial:
 
 else:
     print("Sistema não reconheceu seu tipo de conta, entre em contato com o seu gerente.")
+    
